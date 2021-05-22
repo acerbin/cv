@@ -1,0 +1,38 @@
+img {  
+    max-width: 100%;  
+    height: auto;  
+} 
+
+td {
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+a.footer {
+    padding: 1%;
+}
+
+hr {
+    padding: 1px;
+}
+
+input {
+    margin: 3px;
+}
+
+td.left {
+    width: 15rem;
+}
+
+table.experience {
+    margin-right: 10rem;
+    width: 50%;
+}
+
+th {
+    text-align: center;
+}
+
+
+
