@@ -18,7 +18,12 @@ a.footer {
 }
 
 hr {
-    padding: 1px;
+    border-style: dotted none none;
+    width: 2%;
+    height: 2px;
+    color: #afb9c8;
+    border-width: 5px;
+
 }
 
 input {
@@ -32,6 +37,7 @@ td.left {
 table.experience {
     margin-right: 10rem;
     width: 50%;
+    margin-bottom: 2rem;
 }
 
 th {
