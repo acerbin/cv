@@ -1,6 +1,6 @@
 body {
     background-color: #dcedc1;
-    color: #424642;
+    color: #484a48;
     margin: 0;
     padding: 20px;
     font-family: 'Merriweather', serif;
@@ -55,6 +55,7 @@ hr {
     height: 2px;
     color: #afb9c8;
     border-width: 5px;
+    margin: 50px auto 50px auto;
 
 }
 
@@ -83,6 +84,7 @@ td {
 
 h1 {
     color: #a2b29f;
+        /* color: #66BFBF; */
     margin: 0;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
@@ -91,6 +93,8 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    color: #9fa99d;
+    /* color: #66BFBF; */
 }
 
 h3 {
@@ -101,6 +105,14 @@ h3 {
 
 .circular {
     border-radius: 100%;
+    width: 20%;
+    margin: 50px auto 50px auto;
+    position: relative;
+    left: 40%
+}
+
+.border {
+    border-style: solid;
 }
 
 .intro {
@@ -114,6 +126,10 @@ li {
 .copyright {
     position: absolute;
     right: 10px;
+}
+
+.subtitle {
+    font-weight: normal;
 }
 
 
