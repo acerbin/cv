@@ -1,5 +1,8 @@
 body {
     background-color: #dcedc1;
+    color: #424642;
+    margin: 0;
+    padding: 20px;
 }
 
 img {  
@@ -10,7 +13,6 @@ img {
 td {
     padding-left: 2%;
     padding-right: 2%;
-
 }
 
 a.footer {
@@ -31,7 +33,7 @@ input {
 }
 
 td.left {
-    width: 15rem;
+    width: 15%;
 }
 
 table.experience {
@@ -43,6 +45,20 @@ table.experience {
 th {
     text-align: center;
 }
+
+h1 {
+    color: #a2b29f;
+    margin: 0;
+}
+
+h3 {
+    color: #a2b29f;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
 
 
 
