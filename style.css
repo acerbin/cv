@@ -3,20 +3,50 @@ body {
     color: #424642;
     margin: 0;
     padding: 20px;
+    font-family: 'Merriweather', serif;
+
+}
+
+header {
+    text-align: center;
+    padding-top: 100px;
+    position: relative;
 }
 
 img {  
-    max-width: 100%;  
+    max-width: 100%; 
     height: auto;  
 } 
+
+img.mountain {
+    width: 60%; 
+    height: auto;  
+}
+img.t_cloud {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+
+img.b_cloud {
+    position: absolute;
+    left: 400px;
+    bottom: 500px;
+}
+
+
 
 td {
     padding-left: 2%;
     padding-right: 2%;
 }
 
+footer {
+    padding-bottom: 50px;
+}
+
 a.footer {
-    padding: 1%;
+    margin-right: 2%;
 }
 
 hr {
@@ -37,6 +67,7 @@ td.left {
 }
 
 table.experience {
+    margin-top: 50px;
     margin-right: 10rem;
     width: 50%;
     margin-bottom: 2rem;
@@ -46,17 +77,43 @@ th {
     text-align: center;
 }
 
+td {
+    padding-right: 5px;
+}
+
 h1 {
     color: #a2b29f;
     margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
 }
 
 h3 {
     color: #a2b29f;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 
 .circular {
     border-radius: 100%;
+}
+
+.intro {
+    margin-top: 100px;
+}
+
+li {
+    padding: 20px 0;
+}
+
+.copyright {
+    position: absolute;
+    right: 10px;
 }
 
 
