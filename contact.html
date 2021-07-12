@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page / Katrina Savova's Personal Site</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,17 +15,23 @@
 </head>
 <body>
     <div class="middle-container">
-        <h1 class="padme">Contact Details</h1>
-        <p>
-            <ul>
-                <li>Email: <a href='mailto:acerbin.k@gmail.com'>acerbin.k@gmail.com</a></li>
-                <li><a href="https://github.com/acerbin">Github Profile</a></li>
-                <li><a href="https://www.linkedin.com/in/savova/">LinkedIn Profile</a></li>
-                <li><a href="https://www.google.com/maps/place/Surrey/@51.2716099,-0.6755326,10z/data=!3m1!4b1!4m5!3m4!1s0x47df555ad5122581:0xd55283445c034277!8m2!3d51.3147593!4d-0.5599501">Surrey, United Kingdom</a></li>
-                <hr>
-                <h3>Contact form</h3>
-                <br>
-                <form action="malto:acerbin.a@gmail.com" method="POST">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="padme">Contact Details</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 padme">
+                    <p>© Kat Savoff</p>
+                    <p>Email: <a href='mailto:acerbin.k@gmail.com'>acerbin.k@gmail.com</a></p>
+                    <p><a href="https://github.com/acerbin">Github Profile</a></p>
+                    <p><a href="https://www.linkedin.com/in/savova/">LinkedIn Profile</a></p>
+                    <p><a href="https://www.google.com/maps/place/Surrey/@51.2716099,-0.6755326,10z/data=!3m1!4b1!4m5!3m4!1s0x47df555ad5122581:0xd55283445c034277!8m2!3d51.3147593!4d-0.5599501">Surrey, United Kingdom</a></p>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12>
+    
+                <form action="malto:acerbin.a@gmail.com" method="POST" id="contact-form">
+                    <h3 class="padme">Contact form</h3>
                     <label for="name">Your Name: </label>
                     <input type="text" name="name"><br>
                     <label for="email">Your Email: </label>
@@ -32,9 +41,11 @@
                     <input type="submit" class="BUTTON_IPC">
     
                 </form>
-            </ul>
-        </p>
+            </div>
+    
+        </div>
     </div>
+    
 
     <footer class="bottom-container">
         <a href="index.html">Back to Home</a>
