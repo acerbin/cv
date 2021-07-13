@@ -282,3 +282,11 @@ li {
 /* * {
     border: 1px solid red;
   } */
+
+/* Portfolio */
+.portfolio a {
+    color: #484a50;
+}
+.portfolio a:hover {
+    color: #8D998B;
+}
