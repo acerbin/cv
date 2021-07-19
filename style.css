@@ -1,12 +1,59 @@
+/* General  */
+
 body {
     background-color: #dcedc1;
     color: #484a48;
     margin: 0;
+    padding: 0;
     /* padding: 20px; */
     font-family: 'Merriweather', serif;
     position: relative;
     min-height: 100vh;
 }
+
+h1 {
+    color: #a2b29f;
+        /* color: #66BFBF; */
+    margin: 0;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5.625rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #9fa99d;
+    /* color: #66BFBF; */
+}
+
+h3 {
+    color: #a2b29f;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+hr {
+    border-style: dotted none none;
+    width: 2%;
+    height: 2px;
+    color: #afb9c8;
+    border-width: 5px;
+    margin: 50px auto 50px auto;
+
+}
+
+.circular {
+    border-radius: 100%;
+    border-color: #9fa99d;
+    float: left;
+    padding: 0 1rem 2rem 1rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+
+/* Header */
 
 header {
     text-align: center;
@@ -20,7 +67,7 @@ img {
 } 
 
 img.mountain {
-    margin-top: 10rem;
+    margin-top: 13rem;
     width: 100%; 
     height: auto;  
 
@@ -43,11 +90,69 @@ td {
     padding-left: 2%;
     padding-right: 2%;
 }
-/* 
-footer {
-    padding-bottom: 50px;
+
+/* Intro */
+
+.intro {
+    padding: 150px 4%;
+    background-color: beige;
+    margin: auto;
+}
+
+
+.me {
+    border-style: solid;
+    outline: thick;
+    padding: 5%;
+}
+
+
+.intro-text {
+    padding-top: 10%;
+    padding-right: auto;
+    line-height: 2;
+}
+
+/* Skills */
+
+.skills {
+    padding: 4%;
+}
+
+.skill-row {
+    text-align: justify;
+    border-style: solid;
+    border: solid #484a48 0.5em;
+    border-radius: 15%;
+    border-color: #9fa99d;
+    padding: 2rem 5rem;
+    margin: 5%;
+    background-color: beige;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills h2 {
+    margin: 6% 3% 3%;
+}
+
+.skill-row h3 {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.card-img-top {
+    width: 50%;
+    margin: auto;
+}
+
+/* .skill-row img {
+    width: 30%;
 } */
 
+/* Footer */
 
 a.footer {
     margin-left: 2%;
@@ -62,15 +167,7 @@ p a:hover {
     color: #9FA99D;
 }
 
-hr {
-    border-style: dotted none none;
-    width: 2%;
-    height: 2px;
-    color: #afb9c8;
-    border-width: 5px;
-    margin: 50px auto 50px auto;
 
-}
 
 input {
     margin: 3px;
@@ -95,39 +192,8 @@ td {
     padding-right: 5px;
 }
 
-h1 {
-    color: #a2b29f;
-        /* color: #66BFBF; */
-    margin: 0;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
-}
 
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    color: #9fa99d;
-    /* color: #66BFBF; */
-}
 
-h3 {
-    color: #a2b29f;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-}
-
-.circular {
-    border-radius: 100%;
-    border-color: #9fa99d;
-    width: 15%;
-    /* margin: 50px auto 50px auto;
-    position: relative;
-    left: 40% */
-    float: left;
-    padding: 0 1rem 2rem 1rem;
-    margin-right: 2rem;
-    margin-left: 1rem;
-}
 
 .center {
     width: 20%;
@@ -136,24 +202,9 @@ h3 {
     left: 40%
 }
 
-.border {
-    border-style: solid;
-}
 
-.intro {
-    margin-top: 100px;
-    margin-bottom: 200px;
-}
 
-.intro img {
-    outline: inline-block;
-    padding: 2%;
-    margin-left: 20%
-}
 
-li {
-    padding: 20px 0;
-}
 
 .copyright {
     display: block;
@@ -165,21 +216,10 @@ li {
 
 .subtitle {
     font-weight: normal;
+    padding-top: 3%;
 }
 
-.skill-row {
-    width: 50%;
-    margin: 0 auto 30px auto;
-    text-align: justify;
-    border-style: solid;
-    border-color: #9fa99d;
-    padding: 5rem 2rem;
-    border-radius: 5%;
-}
 
-.skills {
-    text-align: center;
-}
 
 /* Contact Form */
 
@@ -196,15 +236,6 @@ li {
 
 
 
-.intro-text {
-    padding-top: 3rem;
-    padding-right: auto;
-    line-height: 2;
-}
-
-.skill-row h3 {
-    padding-top: 2rem;
-}
 
 .BUTTON_IPC {
     background: #9FA99D;
@@ -233,11 +264,13 @@ li {
     cursor: pointer;
     text-align: center;
     margin: 2rem;
+    font-size: 1rem;
  }
  
  .BUTTON_IPC:hover {
     border: solid #A7B0A5 1px;
     background: #A7B0A5;
+    color: beige;
     background-image: -webkit-linear-gradient(top, #A7B0A5, #8D998B);
     background-image: -moz-linear-gradient(top, #A7B0A5, #8D998B);
     background-image: -ms-linear-gradient(top, #A7B0A5, #8D998B);
@@ -247,6 +280,7 @@ li {
     -moz-border-radius: 20px;
     border-radius: 8px;
     text-decoration: none;
+    font-size: 1rem;
  }
 
  .bottom-container {
